@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "mocha": true,
+    "node": true
+  },
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "rules": {
+    "jsx-a11y/href-no-hash": "off",
+    "no-console": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
+    "import/extensions": 0
+  }
+}
